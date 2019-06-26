@@ -164,7 +164,7 @@ class PaypalComponent extends Component
         }
         return $this->paypal_response;
     }
-    public function sanitizeServerVars($_POST) 
+    public function sanitizeServerVars($_POST)
     {
         $this->paypal_post_arr = (!empty($_POST)) ? $_POST : array();
         foreach($this->paypal_post_arr as $key => $value) {
