@@ -96,8 +96,8 @@ if (!defined('SI_IMAGE_PNG'))
  */
 if (!defined('SI_IMAGE_GIF'))
   define('SI_IMAGE_GIF',  3);
-define('TTF_FONT_PATH', CAKE_CORE_INCLUDE_PATH . DS . 'vendors' . DS . 'securimage' . DS . 'elephant.ttf');
-define('AUDIO_PATH', CAKE_CORE_INCLUDE_PATH . DS . 'vendors' . DS . 'securimage' . DS . 'audio' . DS);
+define('TTF_FONT_PATH', VENDORS . DS . 'securimage' . DS . 'elephant.ttf');
+define('AUDIO_PATH', VENDORS . DS . 'securimage' . DS . 'audio' . DS);
 /**
  * Securimage CAPTCHA Class.
  *
@@ -524,7 +524,7 @@ class Securimage {
 		$this->wordlist_file = './words/words.txt';
 		$this->use_wordlist  = false;
 
-		$this->gd_font_file  = CAKE_CORE_INCLUDE_PATH . DS . 'vendors' . DS . 'securimage' . DS .'gdfonts/automatic.gdf';
+		$this->gd_font_file  = VENDORS . DS . 'securimage' . DS .'gdfonts/automatic.gdf';
 		$this->use_gd_font   = false;
 		$this->gd_font_size  = 25;
 		$this->text_x_start  = 8;

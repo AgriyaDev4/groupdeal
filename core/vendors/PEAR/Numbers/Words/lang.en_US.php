@@ -246,7 +246,6 @@ class Numbers_Words_en_US extends Numbers_Words
       'HUF' => array(array('forint'), array('filler')),
       'ILS' => array(array('new sheqel','new sheqels'), array('agora','agorot')),
       'ISK' => array(array('Icelandic króna'), array('aurar')),
-	  'INR' => array(array('Rupee'), array('pise')),
       'JPY' => array(array('yen'), array('sen')),
       'LTL' => array(array('litas'), array('cent')),
       'LVL' => array(array('lat'), array('sentim')),

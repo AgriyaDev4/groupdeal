@@ -1,0 +1,89 @@
+2019-06-28 15:48:38 Error: [MissingPluginException] Plugin Extensions could not be found.
+#0 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/CakePlugin.php(73): CakePlugin::load('Extensions', Array)
+#1 /usr/share/nginx/html/fork/groupdeal1/groupdeal/app/Config/bootstrap.php(68): CakePlugin::load(Array, Array)
+#2 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/Configure.php(92): include('/usr/share/ngin...')
+#3 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/bootstrap.php(142): Configure::bootstrap(true)
+#4 /usr/share/nginx/html/fork/groupdeal1/groupdeal/app/webroot/index.php(94): include('/usr/share/ngin...')
+#5 {main}
+2019-06-28 15:48:38 Error: Fatal Error (1): Class 'Controller' not found in [/usr/share/nginx/html/fork/groupdeal1/groupdeal/app/Controller/AppController.php, line 50]
+2019-06-28 15:48:38 Error: [FatalErrorException] Class 'Controller' not found
+#0 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Controll...', '/usr/share/ngin...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Controll...', '/usr/share/ngin...', 50, Array)
+#2 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Controll...', '/usr/share/ngin...', 50, Array)
+#3 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-06-28 15:50:11 Error: [MissingPluginException] Plugin Extensions could not be found.
+#0 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/CakePlugin.php(73): CakePlugin::load('Extensions', Array)
+#1 /usr/share/nginx/html/fork/groupdeal1/groupdeal/app/Config/bootstrap.php(68): CakePlugin::load(Array, Array)
+#2 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/Configure.php(92): include('/usr/share/ngin...')
+#3 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/bootstrap.php(142): Configure::bootstrap(true)
+#4 /usr/share/nginx/html/fork/groupdeal1/groupdeal/app/webroot/index.php(94): include('/usr/share/ngin...')
+#5 {main}
+2019-06-28 15:50:45 Error: [MissingPluginException] Plugin Extensions could not be found.
+#0 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/CakePlugin.php(73): CakePlugin::load('Extensions', Array)
+#1 /usr/share/nginx/html/fork/groupdeal1/groupdeal/app/Config/bootstrap.php(68): CakePlugin::load(Array, Array)
+#2 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/Configure.php(92): include('/usr/share/ngin...')
+#3 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/bootstrap.php(142): Configure::bootstrap(true)
+#4 /usr/share/nginx/html/fork/groupdeal1/groupdeal/app/webroot/index.php(94): include('/usr/share/ngin...')
+#5 {main}
+2019-06-28 15:51:10 Error: [MissingPluginException] Plugin Extensions could not be found.
+#0 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/CakePlugin.php(73): CakePlugin::load('Extensions', Array)
+#1 /usr/share/nginx/html/fork/groupdeal1/groupdeal/app/Config/bootstrap.php(68): CakePlugin::load(Array, Array)
+#2 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/Configure.php(92): include('/usr/share/ngin...')
+#3 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/bootstrap.php(142): Configure::bootstrap(true)
+#4 /usr/share/nginx/html/fork/groupdeal1/groupdeal/app/webroot/index.php(94): include('/usr/share/ngin...')
+#5 {main}
+2019-06-28 15:51:10 Error: Fatal Error (1): Class 'Controller' not found in [/usr/share/nginx/html/fork/groupdeal1/groupdeal/app/Controller/AppController.php, line 50]
+2019-06-28 15:51:10 Error: [FatalErrorException] Class 'Controller' not found
+#0 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Controll...', '/usr/share/ngin...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Controll...', '/usr/share/ngin...', 50, Array)
+#2 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Controll...', '/usr/share/ngin...', 50, Array)
+#3 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-06-28 15:55:21 Error: [MissingPluginException] Plugin Extensions could not be found.
+#0 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/CakePlugin.php(73): CakePlugin::load('Extensions', Array)
+#1 /usr/share/nginx/html/fork/groupdeal1/groupdeal/app/Config/bootstrap.php(68): CakePlugin::load(Array, Array)
+#2 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/Configure.php(92): include('/usr/share/ngin...')
+#3 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/bootstrap.php(142): Configure::bootstrap(true)
+#4 /usr/share/nginx/html/fork/groupdeal1/groupdeal/app/webroot/index.php(94): include('/usr/share/ngin...')
+#5 {main}
+2019-06-28 15:55:21 Error: Fatal Error (1): Class 'Controller' not found in [/usr/share/nginx/html/fork/groupdeal1/groupdeal/app/Controller/AppController.php, line 50]
+2019-06-28 15:55:21 Error: [FatalErrorException] Class 'Controller' not found
+#0 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Controll...', '/usr/share/ngin...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Controll...', '/usr/share/ngin...', 50, Array)
+#2 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Controll...', '/usr/share/ngin...', 50, Array)
+#3 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-06-28 15:55:22 Error: [MissingPluginException] Plugin Extensions could not be found.
+#0 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/CakePlugin.php(73): CakePlugin::load('Extensions', Array)
+#1 /usr/share/nginx/html/fork/groupdeal1/groupdeal/app/Config/bootstrap.php(68): CakePlugin::load(Array, Array)
+#2 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/Configure.php(92): include('/usr/share/ngin...')
+#3 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/bootstrap.php(142): Configure::bootstrap(true)
+#4 /usr/share/nginx/html/fork/groupdeal1/groupdeal/app/webroot/index.php(94): include('/usr/share/ngin...')
+#5 {main}
+2019-06-28 15:55:22 Error: Fatal Error (1): Class 'Controller' not found in [/usr/share/nginx/html/fork/groupdeal1/groupdeal/app/Controller/AppController.php, line 50]
+2019-06-28 15:55:22 Error: [FatalErrorException] Class 'Controller' not found
+#0 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Controll...', '/usr/share/ngin...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Controll...', '/usr/share/ngin...', 50, Array)
+#2 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Controll...', '/usr/share/ngin...', 50, Array)
+#3 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-06-28 15:58:30 Error: [MissingPluginException] Plugin Extensions could not be found.
+#0 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/CakePlugin.php(73): CakePlugin::load('Extensions', Array)
+#1 /usr/share/nginx/html/fork/groupdeal1/groupdeal/app/Config/bootstrap.php(68): CakePlugin::load(Array, Array)
+#2 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/Configure.php(92): include('/usr/share/ngin...')
+#3 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/bootstrap.php(142): Configure::bootstrap(true)
+#4 /usr/share/nginx/html/fork/groupdeal1/groupdeal/app/webroot/index.php(94): include('/usr/share/ngin...')
+#5 {main}
+2019-06-28 15:58:30 Error: Fatal Error (1): Class 'Controller' not found in [/usr/share/nginx/html/fork/groupdeal1/groupdeal/app/Controller/AppController.php, line 50]
+2019-06-28 15:58:30 Error: [FatalErrorException] Class 'Controller' not found
+#0 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Controll...', '/usr/share/ngin...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Controll...', '/usr/share/ngin...', 50, Array)
+#2 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Controll...', '/usr/share/ngin...', 50, Array)
+#3 /usr/share/nginx/html/fork/groupdeal1/groupdeal/core/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

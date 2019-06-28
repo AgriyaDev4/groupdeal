@@ -687,7 +687,7 @@ class Auth_OpenID_Message {
                         $name, urldecode($value));
         }
 		$form .= '<div class="authorize-page"><div class="openid-authorizecontainer"><div class="clearfix"><div id="theme" class="clearfix"><span class="site-logo">' . Configure::read('site.name') . '</span><span class="openid-to">' . __l('to') . '</span><span class="openid-logo">' . $domain . '</span></div>';
-		$form .= '<div class="message-content"><div class="authorize-head clearfix"><h2>' . sprintf(__l('Redirecting you to authorize %s'), $domain) . '</h2><span class="loading">Loading</span></div>';
+		$form .= '<div class="message-content"><div class="authorize-head clearfix"><h2>' . sprintf(__l('Redirecting you to authorize %s'), $domain) . '</h2><img src="' . Router::url('/', true) . 'img/redirection-loading.gif' . '"/></div>';
         $form .= '<p>' . __l('If your browser doesn\'t redirect you please ');
         $form .= sprintf("<input type=\"submit\" value=\"%s\" />\n",
                          $submit_text);

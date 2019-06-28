@@ -24,7 +24,7 @@
 	if (!defined('DS')) {
 		define('DS', DIRECTORY_SEPARATOR);
 	}
-	require '..' . DS . 'config' . DS . 'config.php';
+	require '..' . DS . 'Config' . DS . 'config.php';
 	if (IS_ENABLE_HTML5_HISTORY_API) {
 		if (!empty($_GET['_escaped_fragment_'])) {
 			$_GET['url'] = $_GET['_escaped_fragment_'];
@@ -67,9 +67,8 @@
 		 *
 		 */
 		if (!defined('CAKE_CORE_INCLUDE_PATH')) {
-			define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . 'core');
+			define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . 'core'. DS . 'lib');
 		}
-
 		/**
 		 * Editing below this line should NOT be necessary.
 		 * Change at your own risk.
@@ -92,7 +91,7 @@
 			session_id($url_arr[2]);
 			//@session_start();
 		}
-		if (!include(CORE_PATH . 'cake' . DS . 'bootstrap.php')) {
+		if (!include(CORE_PATH . 'Cake' . DS . 'bootstrap.php')) {
 			trigger_error("CakePHP core could not be found.  Check the value of CAKE_CORE_INCLUDE_PATH in APP/webroot/index.php.  It should point to the directory containing your " . DS . "cake core directory and your " . DS . "vendors root directory.", E_USER_ERROR);
 		}
 		if (isset($_GET['url']) && $_GET['url'] === 'favicon.ico') {
@@ -229,7 +228,7 @@ function cache_clear($filename = null)
 }
 function updateViews($table, $main_id) {
 	require '..' . DS . '..' . DS . 'core' . DS . 'cake' . DS . 'libs' . DS . 'inflector.php';
-	require '..' . DS . 'config' . DS . 'database.php';
+	require '..' . DS . 'Config' . DS . 'database.php';
 	$database = new DATABASE_CONFIG();
 	$db = mysql_connect($database->default['host'], $database->default['login'], $database->default['password']) or die ('Error connecting to mysql');
 	mysql_select_db($database->default['database']);
